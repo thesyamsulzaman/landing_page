@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+	<script type="text/javascript" src="./script.js"></script>
+</head>
+
+<body>
+	<div class="container">
+		<header>
+
+			<img src="./svg/credit-card.svg" width="50" height="50" alt="Logo Icon">
+			<nav>
+				<a href="#" class="hide-desktop">
+					<img src="./svg/list-alt.svg" alt="hamburger" width="50" height="50" class="menu" id="menu">
+				</a>
+				<ul class="show-desktop hide-mobile" id="nav">
+					<li id="exit" class="exit-btn hide-desktop">
+						<img src="./svg/exit.svg" width="30" height="30" alt="exit menu">
+					</li>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Contact</a></li>
+					<li><a href="#"></a></li>
+				</ul>
+			</nav>
+		</header>
+		<section>
+			<img src="./svg/credit-card.svg" width="150" height="150" alt="server graphic" class="server">
+			<h1>
+				Kami Tahu Anda Miskin, Dan Kami Ingin Uang Anda
+			</h1>
+			<p class="subhead">
+				Kami memang kaya, tapi masih ingin uang anda
+			</p>
+			<img src="./svg/paper-plane.svg" width="50" height="50" alt="scroll down" class="scroll hide-mobile">
+		</section>
+	</div>
+	<div class="blue-container">
+		<div class="container">
+			<ul>
+				<li>
+					<img src="./svg/address-card.svg" width="100" height="100" alt="callendar-icon">
+					<p>
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</li>
+				<li>
+					<img src="./svg/chart-bar.svg" width="100" height="100" alt="chart-bar">
+					<p>
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					</p>
+				</li>
+				<li>
+					<img src="./svg/donate.svg" width="100" height="100" alt="donate">
+					<p>
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					</p>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="gray-container">
+		<div class="container">
+			<ul>
+				<li>
+					<figure>
+						<img src="./img/default.png" width="50" height="50" alt="user1">
+						<blockquote>
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						</blockquote>
+						<figcaption>
+							Hua Yang Doo It
+						</figcaption>
+					</figure>
+				</li>
+				<li>
+					<figure>
+						<img src="./img/default.png" width="50" height="50" alt="user1">
+						<blockquote>
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						</blockquote>
+						<figcaption>
+							Hua Yang Doo It
+						</figcaption>
+					</figure>
+				</li>
+				<li>
+					<figure>
+						<img src="./img/default.png" width="50" height="50" alt="user1">
+						<blockquote>
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						</blockquote>
+						<figcaption>
+							Hua Yang Doo It
+						</figcaption>
+					</figure>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="container">
+		<h2>Beri Kami Uang</h2>
+		<a href="" class="cta">Mulai Dari $9</a>
+	</div>
+
+	<footer>
+		<div class="footer-container">
+			<div class="container">
+				<a href="#">
+					<img src="./svg/credit-card.svg" width="50" height="50" class="logo" alt="credit-card">
+				</a>
+				<p class="address">Melrouse, 9485, <br>CIDUIT</p>
+				<ul class="footer-links">
+					<li><a href=""> Term Of Services</a></li>
+					<li><a href=""> Privacy Policy</a></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+	<script>
+		let menu = document.getElementById("menu");
+		let nav = document.getElementById("nav");
+		let exit = document.getElementById("exit");
+
+
+		menu.addEventListener('click', e => {
+			nav.classList.toggle('hide-mobile');
+			e.preventDefault();
+		});
+
+		exit.addEventListener('click', e => {
+			nav.classList.toggle('hide-mobile');
+			e.preventDefault();
+		});
+
+
+	</script>
+</body>
+
+</html>
